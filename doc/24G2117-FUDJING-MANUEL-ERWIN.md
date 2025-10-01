@@ -48,6 +48,7 @@ FONCTION insertAtHead(valeur):
         head <- nouveauNoeud
     FIN SI
 FIN FONCTION
+```
 Complexité :
 
 Temporelle : O(1)
