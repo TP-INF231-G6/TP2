@@ -1,22 +1,22 @@
-📘 INF 231_EC2 : STRUCTURE DE DONNÉES II – Exercices en Algorithmique  
-👨🏾‍🏫 Enseignant responsable  
+# 📘 INF 231_EC2 : STRUCTURE DE DONNÉES II – Exercices en Algorithmique  
+## 👨🏾‍🏫 Enseignant responsable  
 
-PR. Metatagia  
+**PR. Metatagia** 
 
-👥 Groupe de TP  
+## 👥 Groupe de TP  
 
-Projet collaboratif – exercices pratiques en algorithmique (pseudocode).  
+- Projet collaboratif – exercices pratiques en **algorithmique (pseudocode).**  
 
 ---
 
-📌 Objectifs du TP  
+## 📌 Objectifs du TP  
 
 Ce dépôt regroupe les implémentations en **pseudocode algorithmique** de différents exercices liés aux **listes chaînées** (simples, doubles et circulaires).  
 Chaque algorithme est documenté et organisé par dossier pour faciliter la lecture et la collaboration.  
 
 ---
 
-📂 Contenu des exercices  
+## 📂 Contenu des exercices  
 
 1. **Liste simplement chaînée**  
    - Suppression de toutes les occurrences d’un élément  
@@ -35,7 +35,9 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 
 ---
 
-📖 Organisation du dépôt  
+## 📖 Organisation du dépôt  
+
+```bash
 
 .
 ├── README.md
@@ -59,14 +61,17 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 │ │ ├── insertion_tete.algo
 │ │ ├── insertion_queue.algo
 
+``` 
 
 ---
 
-👤 Auteurs / Collaborateurs  
+## 👤 Auteurs / Collaborateurs  
 
-- @erwin-cyberdev  
-- @LembouPharel  
-- @psycho237-prog  
-- @TSANGA-AWANA  
-- @Wills007-deep  
-- @esthera-tiago  
+
+- [@erwin-cyberdev](https://github.com/erwin-cyberdev)  
+- [@LembouPharel](https://github.com/LembouPharel)  
+- [@psycho237-prog](https://github.com/psycho237-prog)  
+- [@TSANGA-AWANA](https://github.com/TSANGA-AWANA)  
+- [@Wills007-deep](https://github.com/Wills007-deep)  
+- [@esthera-tiago](https://github.com/esthera-tiago)
+
