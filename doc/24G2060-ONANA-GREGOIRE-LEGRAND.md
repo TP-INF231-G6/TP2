@@ -93,13 +93,13 @@ int main() {
 ## 4) Compilation
 
 ```bash
-gcc -Wall -Wextra -O2 -o insertion_liste insertion_liste.c
+gcc -Wall -Wextra -O2 -o insertion_liste insertion_triee.c
 ```
 
 ## 5) Exécution
 
 ```bash
-./insertion_liste
+./insertion_triee
 ```
 
 ---
