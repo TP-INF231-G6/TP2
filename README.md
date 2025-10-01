@@ -5,14 +5,14 @@
 
 ## 👥 Groupe de TP  
 
-Projet collaboratif – exercices pratiques en **C (implémentation des structures de données).**  
+- Projet collaboratif – exercices pratiques en **algorithmique (pseudocode).**  
 
 ---
 
 ## 📌 Objectifs du TP  
 
-Ce dépôt regroupe les implémentations en **langage C** de différents exercices liés aux **listes chaînées** (simples, doubles et circulaires).  
-Chaque programme est documenté et organisé par dossier pour faciliter la lecture et la collaboration.  
+Ce dépôt regroupe les implémentations en **pseudocode algorithmique** de différents exercices liés aux **listes chaînées** (simples, doubles et circulaires).  
+Chaque algorithme est documenté et organisé par dossier pour faciliter la lecture et la collaboration.  
 
 ---
 
@@ -38,32 +38,32 @@ Chaque programme est documenté et organisé par dossier pour faciliter la lectu
 ## 📖 Organisation du dépôt  
 
 ```bash
+
 .
 ├── README.md
 ├── docs/
-│   ├── consignes.md          # Sujet de l'exercice et notes
-│   ├── 23U2498-TSANGA-AWANA-EUGENE-GONTRAN.md
-│   ├── 24F2657-KEUBOU-FOTSA-WILLY.md
-│   ├── 24F2810-TIETCHAK-TIAGO-ESTHERA-JOANNA.md
-│   ├── 24G2060-ONANA-GREGOIRE-LEGRAND.md
-│   ├── 24G2117-FUDJING-MANUEL-ERWIN.md
-│   ├── 24G2333-Lembou-Ngueumedje-Pharel.md
-│
-├── Liste_simplement_chainee/
-│   ├── suppression_occurence.c
-│   ├── insertion_triee.c
-│
-├── Liste_doublement_chainee/
-│   ├── insertion_triee.c
-│
-├── Liste_simplement_circulaire/
-│   ├── insertion_en_tete.c
-│   ├── insertion_en_queue.c
-│
-├── Liste_doublement_circulaire/
-│   ├── insertion_en_tete.c
-│   ├── insertion_en_queue.c
+│ ├── consignes.md # Sujet de l'exercice et notes
+│ ├── 23U2498-TSANGA-AWANA-EUGENE-GONTRAN.md
+│ ├── 24F2657-KEUBOU-FOTSA-WILLY.md
+│ ├── 24F2810-TIETCHAK-TIAGO-ESTHERA-JOANNA.md
+│ ├── 24G2060-ONANA-GREGOIRE-LEGRAND.md
+│ ├── 24G2117-FUDJING-MANUEL-ERWIN.md
+│ ├── 24G2333-Lembou-Ngueumedje-Pharel.md
+├── algorithme/
+│ ├── Liste simplement chaînée/
+│ │ ├── suppression_occurence.algo
+│ │ ├── insertion_triee.algo
+│ │
+│ ├── Liste doublement chaînée/
+│ │ ├── insertion_triee.algo
+│ │
+│ ├── Liste simplement circulaire/
+│ │ ├── insertion_en_tete.algo
+│ │ ├── insertion_en_queue.algo
 
+
+
+``` 
 
 ---
 
