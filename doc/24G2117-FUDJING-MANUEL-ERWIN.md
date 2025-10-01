@@ -222,16 +222,25 @@ int main() {
     freeList();
     return 0;
 }
-Compilation et Exécution
-Compilation
-bash
+
+## Compilation
+
+Pour compiler le programme, utilisez la commande suivante :
+
+```bash
 gcc -o liste_circulaire liste_circulaire.c
+Cette commande génère un exécutable nommé liste_circulaire à partir du fichier source liste_circulaire.c.
+
 Exécution
+Pour exécuter le programme, utilisez la commande :
+
 bash
 ./liste_circulaire
 Tests et Validation
 Scénario de Test Complet
 text
+Programme de Gestion de Liste Doublement Chainee Circulaire
+
 MENU PRINCIPAL
 1. Insertion en tête
 2. Insertion en queue
