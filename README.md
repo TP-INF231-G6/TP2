@@ -49,7 +49,7 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 │ ├── 24G2060-ONANA-GREGOIRE-LEGRAND.md
 │ ├── 24G2117-FUDJING-MANUEL-ERWIN.md
 │ ├── 24G2333-Lembou-Ngueumedje-Pharel.md
-├── algorithmique/
+├── algorithme/
 │ ├── liste_simple/
 │ │ ├── suppression_occurence.algo
 │ │ ├── insertion_triee.algo
@@ -60,6 +60,8 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 │ ├── liste_simple_circulaire/
 │ │ ├── insertion_tete.algo
 │ │ ├── insertion_queue.algo
+
+
 
 ``` 
 
@@ -74,4 +76,5 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 - [@TSANGA-AWANA](https://github.com/TSANGA-AWANA)  
 - [@Wills007-deep](https://github.com/Wills007-deep)  
 - [@esthera-tiago](https://github.com/esthera-tiago)
+
 
