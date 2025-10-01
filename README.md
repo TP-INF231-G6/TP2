@@ -41,7 +41,6 @@ Chaque programme est documenté et organisé par dossier pour faciliter la lectu
 .
 ├── README.md
 ├── docs/
-│   ├── consignes.md          # Sujet de l'exercice et notes
 │   ├── 23U2498-TSANGA-AWANA-EUGENE-GONTRAN.md
 │   ├── 24F2657-KEUBOU-FOTSA-WILLY.md
 │   ├── 24F2810-TIETCHAK-TIAGO-ESTHERA-JOANNA.md
