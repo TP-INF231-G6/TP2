@@ -56,8 +56,7 @@ Chaque programme est documenté et organisé par dossier pour faciliter la lectu
 │   ├── insertion_triee.c
 │
 ├── Liste_simplement_circulaire/
-│   ├── insertion_en_tete.c
-│   ├── insertion_en_queue.c
+│   ├── insertion_en_tete_et_en_queue.c
 │
 ├── Liste_doublement_circulaire/
 │   ├── insertion_en_tete_et_en_queue.c
