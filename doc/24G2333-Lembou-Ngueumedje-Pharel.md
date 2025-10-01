@@ -145,7 +145,7 @@ bash```
 ./insertion_en_tete_et_en_queue
 ```
 ---
-###Exemple d’exécution :
+Exemple d’exécution :
 ```
 1. Insertion en tête
 2. Insertion en queue
