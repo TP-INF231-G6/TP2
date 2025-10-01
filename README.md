@@ -41,6 +41,12 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 ├── README.md
 ├── docs/
 │ ├── consignes.md # Sujet de l'exercice et notes
+│ ├── 23U2498-TSANGA-AWANA-EUGENE-GONTRAN.md
+│ ├── 24F2657-KEUBOU-FOTSA-WILLY.md
+│ ├── 24F2810-TIETCHAK-TIAGO-ESTHERA-JOANNA.md
+│ ├── 24G2060-ONANA-GREGOIRE-LEGRAND.md
+│ ├── 24G2117-FUDJING-MANUEL-ERWIN.md
+│ ├── 24G2333-Lembou-Ngueumedje-Pharel.md
 ├── algorithmique/
 │ ├── liste_simple/
 │ │ ├── suppression_occurence.algo
@@ -52,7 +58,15 @@ Chaque algorithme est documenté et organisé par dossier pour faciliter la lect
 │ ├── liste_simple_circulaire/
 │ │ ├── insertion_tete.algo
 │ │ ├── insertion_queue.algo
-│ │
-│ ├── liste_double_circulaire/
-│ ├── insertion_tete.algo
-│ ├── insertion_queue.algo
+
+
+---
+
+👤 Auteurs / Collaborateurs  
+
+- @erwin-cyberdev  
+- @LembouPharel  
+- @psycho237-prog  
+- @TSANGA-AWANA  
+- @Wills007-deep  
+- @esthera-tiago  
