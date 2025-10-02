@@ -54,7 +54,7 @@ Insérer le nœud entre deux éléments ou en fin de liste si nécessaire.
 
 ## 3) Code source
 
-🔹 insertion_liste_doublement_chainee_triee.c
+🔹 insertion_triee.c
 
 ```c
 #include <stdio.h>
@@ -72,7 +72,7 @@ typedef struct {
     Node* head;
 } DoublyLinkedList;
 
-// Initialiser la liste
+// Fonction pour initialiser la liste
 void initList(DoublyLinkedList* list) {
     list->head = NULL;
 }
@@ -80,8 +80,8 @@ void initList(DoublyLinkedList* list) {
 // Créer un nouveau nœud
 Node* createNode(int value) {
     Node* newNode = (Node*)malloc(sizeof(Node));
-    if (!newNode) {
-        printf("Erreur allocation mémoire.\n");
+    if (newNode == NULL) {
+        printf("Erreur : mémoire insuffisante.\n");
         exit(1);
     }
     newNode->data = value;
@@ -90,7 +90,7 @@ Node* createNode(int value) {
     return newNode;
 }
 
-// Insertion triée
+// Insérer un élément dans la liste triée
 void insertSorted(DoublyLinkedList* list, int value) {
     Node* newNode = createNode(value);
 
@@ -110,7 +110,7 @@ void insertSorted(DoublyLinkedList* list, int value) {
         return;
     }
 
-    // Parcourir pour trouver la position
+    // Parcourir jusqu'à la bonne position
     while (current->next != NULL && current->next->data < value) {
         current = current->next;
     }
@@ -126,12 +126,13 @@ void insertSorted(DoublyLinkedList* list, int value) {
     current->next = newNode;
 }
 
-// Affichage de la liste
+// Afficher la liste dans le sens normal
 void displayList(DoublyLinkedList* list) {
     if (list->head == NULL) {
         printf("La liste est vide.\n");
         return;
     }
+
     Node* current = list->head;
     printf("Liste triée : ");
     while (current != NULL) {
@@ -147,7 +148,8 @@ int main() {
     initList(&myList);
 
     int n, value;
-    printf("Combien d'éléments voulez-vous insérer ? ");
+    printf("\n__________________________________Initialisation de la liste__________________________________\n");
+    printf("\nEntrez le nombre d'éléments dans la liste : ");
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {
@@ -158,6 +160,24 @@ int main() {
 
     displayList(&myList);
 
+    printf("\nInsertion d'un nouvel élément dans la liste triée.\n");
+    printf("Entrez la valeur à insérer : ");
+    scanf("%d", &value);
+    insertSorted(&myList, value);
+    displayList(&myList);
+    printf("\n");
+    // Libération de la mémoire
+    Node* current = myList.head;
+    while (current != NULL) {
+        Node* nextNode = current->next;
+        free(current);
+        current = nextNode;     
+    }
+    myList.head = NULL;
+    printf("Mémoire libérée.\n");
+    printf("Fin du programme.\n");
+    printf("__________________________________Fin de la liste__________________________________\n");
+    
     return 0;
 }
 
@@ -167,24 +187,38 @@ int main() {
 
 ## 4) Compilation
 
->     gcc -o insertion_liste_doublement_chainee_triee.c
+>     gcc insertion_triée.c -o insertion_triee
 
 
 ---
 
 ## 5) Exécution
 
->      ./insertion_liste_doublement_chainee_triee
+>      ./insertion_triee
 
-Exemple d’exécution :
+---
 
-Combien d'éléments voulez-vous insérer ? 5
+
+## Exemple d’exécution :
+
+__________________________________Initialisation de la liste__________________________________
+
+Entrez le nombre d'éléments dans la liste : 5
 Entrez l'élément 1 : 8
 Entrez l'élément 2 : 3
 Entrez l'élément 3 : 10
 Entrez l'élément 4 : 1
 Entrez l'élément 5 : 5
 Liste triée : 1 3 5 8 10
+
+Insertion d'un nouvel élément dans la liste triée.
+
+Entrez la valeur à insérer : 4
+
+Liste triée : 1 3 4 5 8 10
+
+Mémoire libérée.
+Fin du programme
 
 
 ---
