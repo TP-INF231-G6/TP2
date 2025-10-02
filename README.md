@@ -1,7 +1,7 @@
 # 📘 INF 231_EC2 : STRUCTURE DE DONNÉES II – Exercices en Algorithmique  
 ## 👨🏾‍🏫 Enseignant responsable  
 
-**PR. Metatagia** 
+**PR. Melatagia** 
 
 ## 👥 Groupe de TP  
 
@@ -75,6 +75,7 @@ Chaque programme est documenté et organisé par dossier pour faciliter la lectu
 - [@TSANGA-AWANA](https://github.com/TSANGA-AWANA)  
 - [@Wills007-deep](https://github.com/Wills007-deep)  
 - [@esthera-tiago](https://github.com/esthera-tiago)
+
 
 
 
